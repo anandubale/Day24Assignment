@@ -1,0 +1,15 @@
+C:\Users\anand\Desktop\Bridgelabz\Day24Assignment\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anand\Desktop\Bridgelabz\Day24Assignment\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\anand\Desktop\Bridgelabz\Day24Assignment\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\anand\Desktop\Bridgelabz\Day24Assignment\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\anand\Desktop\Bridgelabz\Day24Assignment\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.exe
+C:\Users\anand\Desktop\Bridgelabz\Day24Assignment\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.deps.json
+C:\Users\anand\Desktop\Bridgelabz\Day24Assignment\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.runtimeconfig.json
+C:\Users\anand\Desktop\Bridgelabz\Day24Assignment\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\anand\Desktop\Bridgelabz\Day24Assignment\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.dll
+C:\Users\anand\Desktop\Bridgelabz\Day24Assignment\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ref\ConsoleApp1.dll
+C:\Users\anand\Desktop\Bridgelabz\Day24Assignment\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.pdb
+C:\Users\anand\Desktop\Bridgelabz\Day24Assignment\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.dll
+C:\Users\anand\Desktop\Bridgelabz\Day24Assignment\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ref\ConsoleApp1.dll
+C:\Users\anand\Desktop\Bridgelabz\Day24Assignment\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.pdb
+C:\Users\anand\Desktop\Bridgelabz\Day24Assignment\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.genruntimeconfig.cache
