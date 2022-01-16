@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+
 namespace ConsoleApp1
 {
     class RegexProgram : Exception
@@ -26,15 +27,16 @@ namespace ConsoleApp1
                         {
                             Console.WriteLine("Enter your First Name:");
                             RegexPatterns name = new RegexPatterns();
-                            bool result = name.ValidateName(Console.ReadLine());
+                            bool result = name.ValidateName(Console.ReadLine(), RegexPatterns.FIRSTNAME_REGEX);
+                            Console.WriteLine(result);
                             if (result == false)
                             {
-                                throw new RegexProgram("Must contain characters only. Having first letter capital with minimum 3 characters.\n====================");
+                                throw new RegexProgram("Must contain characters only. Having first letter capital with minimum 3 characters.");
                             }
                         }
                         catch (RegexProgram e)
                         {
-                            Console.WriteLine("====================\nInvalid Input\n====================");
+                            Console.WriteLine("\nInvalid Input");
                             Console.WriteLine(e.Message);
                         }
                         break;
@@ -43,16 +45,16 @@ namespace ConsoleApp1
                         {
                             Console.WriteLine("Enter your Last Name:");
                             RegexPatterns lastname = new RegexPatterns();
-                            bool resultlastname = lastname.ValidateLastName(Console.ReadLine());
+                            bool resultlastname = lastname.ValidateLastName(Console.ReadLine(), RegexPatterns.LASTNAME_REGEX);
                             Console.WriteLine(resultlastname);
                             if (resultlastname == false)
                             {
-                                throw new RegexProgram("Must contain characters only. Having first letter capital with minimum 3 characters.\n====================");
+                                throw new RegexProgram("Must contain characters only. Having first letter capital with minimum 3 characters.");
                             }
                         }
                         catch (RegexProgram e)
                         {
-                            Console.WriteLine("====================\nInvalid Input\n====================");
+                            Console.WriteLine("\nInvalid Input");
                             Console.WriteLine(e.Message);
                         }
                         break;
@@ -62,16 +64,16 @@ namespace ConsoleApp1
                         {
                             Console.WriteLine("Enter your Phone Number:");
                             RegexPatterns phonenum = new RegexPatterns();
-                            bool resultphonenum = phonenum.ValidatePhoneNum(Console.ReadLine());
+                            bool resultphonenum = phonenum.ValidatePhoneNum(Console.ReadLine(), RegexPatterns.PHONENUM_REGEX);
                             Console.WriteLine(resultphonenum);
                             if (resultphonenum == false)
                             {
-                                throw new RegexProgram("Must contain integers only. Starting with '91' and space and having exact 10 digits as Phone Number.\n====================");
+                                throw new RegexProgram("Must contain integers only. Starting with '91' and space and having exact 10 digits as Phone Number.");
                             }
                         }
                         catch (RegexProgram e)
                         {
-                            Console.WriteLine("====================\nInvalid Input\n====================");
+                            Console.WriteLine("\nInvalid Input");
                             Console.WriteLine(e.Message);
                         }
                         break;
@@ -81,16 +83,16 @@ namespace ConsoleApp1
                         {
                             Console.WriteLine("Enter your Email Id:");
                             RegexPatterns emailid = new RegexPatterns();
-                            bool resultemailid = emailid.ValidateEmail(Console.ReadLine());
+                            bool resultemailid = emailid.ValidateEmail(Console.ReadLine(), RegexPatterns.EMAIL_REGEX);
                             Console.WriteLine(resultemailid);
                             if (resultemailid == false)
                             {
-                                throw new RegexProgram("Must contain Alphabet and Numeric Combination only.\nEnding with proper domain address e.g. '@gmail.com'\n====================");
+                                throw new RegexProgram("Must contain Alphabet and Numeric Combination only.\nEnding with proper domain address e.g. '@gmail.com'");
                             }
                         }
                         catch (RegexProgram e)
                         {
-                            Console.WriteLine("====================\nInvalid Input\n====================");
+                            Console.WriteLine("\nInvalid Input");
                             Console.WriteLine(e.Message);
                         }
                         break;
@@ -99,16 +101,16 @@ namespace ConsoleApp1
                         {
                             Console.WriteLine("Enter your Password:");
                             RegexPatterns pass = new RegexPatterns();
-                            bool resultpass = pass.ValidatePassword(Console.ReadLine());
+                            bool resultpass = pass.ValidatePassword(Console.ReadLine(), RegexPatterns.PASSWORD_REGEX);
                             Console.WriteLine(resultpass);
                             if (resultpass == false)
                             {
-                                throw new RegexProgram("Must contain Alphanumeric combination.\nConsisting atleast 1 uppercase character, atleast 1 numeric value.\nAnd exactly one special character.\n====================");
+                                throw new RegexProgram("Must contain Alphanumeric combination.\nConsisting atleast 1 uppercase character, atleast 1 numeric value.\nAnd exactly one special character.");
                             }
                         }
                         catch (RegexProgram e)
                         {
-                            Console.WriteLine("====================\nInvalid Input\n====================");
+                            Console.WriteLine("\nInvalid Input");
                             Console.WriteLine(e.Message);
                         }
                         break;
@@ -126,8 +128,6 @@ namespace ConsoleApp1
             Console.ReadKey();
         }
 
+
+
     }
-
-
-
-}
